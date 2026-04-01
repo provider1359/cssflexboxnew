@@ -1,0 +1,88 @@
+*{ box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
+body{ font-family: Arial, Helvetica, sans-serif;}
+
+.flex-container{
+    display: flex;
+    background-color: rgb(94, 94, 232);
+margin: 10px 5px;
+padding: 10px;
+border-radius: 5px;
+justify-content: space-between;
+
+}
+
+.item{ 
+    display: flex;
+    color: antiquewhite;
+    text-align: center;
+    padding-right: 50px;
+    
+}
+
+.item li{ display: flex;
+gap: 20px;
+padding: 15px;
+margin: 10px;
+font-size: 20px;
+}
+
+.item a{ text-decoration: none;
+}
+
+.nav{ background-color: rgb(176, 156, 156);
+display: flex;
+padding: 15px;
+margin: 10px;
+border-radius: 7px;
+font-size: 30px;
+}
+
+.hero{ display: flex;
+background-color: rgb(55, 55, 155);
+margin: 10px 5px;
+border-radius: 5px;
+height: 500px;
+}
+
+.hearder{ text-align: center;
+justify-content: center;
+padding-top: 100px;
+font-size: 30px;}
+
+.container{ display: flex;
+background-color: rgb(46, 46, 92);
+margin: 10px 5px;
+padding-top: 30px;
+border-radius: 5px;
+height: 200px;
+text-align: center;
+}
+
+.boxes .box{ display: block;
+     background-color:  blue;
+    height: 100px;
+    border-radius: 5px;
+    margin: 10px;
+    padding-top: 10px;
+    }
+
+.boxes .boxl{ display: block; background-color:  blue;
+height: 100px;
+    border-radius: 5px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.boxes .boxi{ display: block; background-color:  blue;
+height: 100px;
+    border-radius: 5px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+
+
+
